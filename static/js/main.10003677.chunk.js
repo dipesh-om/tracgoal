@@ -1,2 +1,0 @@
-(this["webpackJsonpproject-lap"]=this["webpackJsonpproject-lap"]||[]).push([[0],{3:function(e,t,a){e.exports=a(8)},8:function(e,t,a){"use strict";a.r(t);var n=a(0),r=a.n(n),p=a(2);var c=function(){return r.a.createElement("div",{className:"App"},r.a.createElement("header",{className:"App-header"},r.a.createElement("p",null,"It's Dipesh.")))};a.n(p).a.render(r.a.createElement(c,null),document.getElementById("root"))}},[[3,1,2]]]);
-//# sourceMappingURL=main.10003677.chunk.js.map

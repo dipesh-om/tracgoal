@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css","filereadstyle.css"],"names":[],"mappings":"AAAA,KACE,YACF,CACA,mBACE,YAAa,CACb,UACF,CCNA,UACI,sBAAuB,CACvB,iBACF","file":"main.d5ba8c1f.chunk.css","sourcesContent":[".map {\n  height: 300px;\n}\n.leaflet-container {\n  height: 400px;\n  width: 100%;\n}",".Gpsfiles {\r\n    font-family: sans-serif;\r\n    text-align: center;\r\n  }\r\n  "]}
