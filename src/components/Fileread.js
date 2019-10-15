@@ -6,7 +6,7 @@ class Fileread extends React.Component {
         super(props);
         this.state = {
             uploadedFileContents: null,
-            latlongFile: null,
+            latlongFile: [],
             waitingForFileUpload: false,
             xmlSource: null,
             waypoints: [],
@@ -39,11 +39,10 @@ class Fileread extends React.Component {
             var trackpoints = [];
             for (i = 0; i < len; i++) {
                 var pt = [];
-                pt = [parseFloat(ll.item(0).getAttribute("lat")), parseFloat(ll.item(0).getAttribute("lon"))];
+                pt = [parseFloat(ll.item(i).getAttribute("lat")), parseFloat(ll.item(i).getAttribute("lon"))];
                 trackpoints.push(pt);
             }
-            this.waypoints = trackpoints;
-            resolve(this.waypoints)
+            resolve(trackpoints)
         });
     }
 

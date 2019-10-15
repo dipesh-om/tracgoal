@@ -11,7 +11,6 @@ export default class Mapplot extends Component {
             latlongPoint: [[31.708401, 76.932198], [31.708401, 75.932198]]
         }
     }
-
     componentDidUpdate(prevProps) {
 
         if (this.props.latlong !== prevProps.latlong) {
@@ -31,11 +30,11 @@ export default class Mapplot extends Component {
         return (
             <div>
                 <Map className="leaflet-container" center={position} zoom={this.state.zoom}>
+                    <Polygon color="red" weight="5" positions={this.state.latlongPoint} />
                     <TileLayer
                         attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     />
-                    <Polygon color="red" weight="5" positions={this.state.latlongPoint} />
                     <Marker position={position}>
                         <Popup>
                             Hey Buddy <br /> It's ITT MANDI.
