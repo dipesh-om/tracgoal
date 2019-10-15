@@ -4,9 +4,16 @@
   "private": true,
   "homepage": "http://dipesh-om.github.io/trackgoal",
   "dependencies": {
+    "file-system": "^2.2.2",
+    "google-maps-react": "^2.0.2",
+    "gpx-parse": "^0.10.4",
+    "leaflet": "^1.5.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-files": "^2.4.8",
+    "react-leaflet": "^2.4.0",
+    "react-scripts": "3.2.0",
+    "read-files-promise": "^1.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -32,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^2.1.1",
+    "react-openlayers": "^0.2.1"
   }
 }
