@@ -8,7 +8,7 @@ export default class Mapplot extends Component {
             lat: 31.708401,
             lng: 76.932198,
             zoom: 11,
-            latlongPoint: [[31.708401, 76.932198], [31.708401, 75.932198]]
+            latlongPoint: [[31.708401, 76.932198]]
         }
     }
     componentDidUpdate(prevProps) {

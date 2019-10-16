@@ -1,5 +1,4 @@
 import React from "react";
-import "./filereadstyle.css";
 
 class Fileread extends React.Component {
     constructor(props) {
@@ -84,14 +83,6 @@ class Fileread extends React.Component {
         return (
             <div style={{ display: "grid" }}>
                 <input type="file" onChange={this.uploadFile} />
-                <textarea
-                    readOnly
-                    value={
-                        this.state.uploadedFileContents
-                            ? this.state.uploadedFileContents
-                            : "No contents to display."
-                    }
-                />
                 {this.state.waitingForFileUpload && <span>Uploading file...</span>}
             </div>
         );
